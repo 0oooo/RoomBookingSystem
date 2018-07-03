@@ -1,0 +1,333 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar{
+  background-color:#396281;
+  height: 60px;
+  width: 100%;
+}
+
+.menu {
+    margin: 0;
+}
+
+.nav-item{
+  font-size: 25px;
+  color: #FFF;
+  padding: 14px;
+  display: inline-block;
+  cursor: pointer;
+  /*border: 1px solid pink;*/
+}
+.nav-item-right{
+  float: right;
+}
+
+a{
+  color: #396281;
+  text-decoration: none;
+}
+
+.header-content{
+  text-align: center;
+}
+
+.title {
+  margin: 0%;
+  padding: 5% 5% 1% 5%;
+  font-size: 70px;
+  color: #396281;
+  /*border: 1px dashed #000;*/
+  position: relative;
+  display: block;
+}
+
+.subtitle{
+  color:#777777;
+  font-size: 28px;
+  text-align: center;
+}
+
+.form {
+/*height: 100px;*/
+width:400px;
+margin: 50px auto;
+}
+
+.search-form{
+  width: 600px;
+margin: auto;
+margin-left: 350px;
+    margin-bottom: 100px;
+}
+.search-equipment{
+    width: 600px;
+    margin-left: 400px;
+    /*margin-top: 15px;*/
+    column-count: 2;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+
+}
+.search-room{
+    margin-bottom: 5px;
+}
+input {
+  display:block;
+  width: 300px;
+  height: 20px;
+  padding: 11px;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  outline: none;
+  font-family: Verdana, sans-serif;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.focus{
+  border-color: red;
+}
+
+.form-input{
+  width: 300px;
+  height: 15px;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(51, 50, 50, 0.77);
+  -moz-box-shadow:    2px 2px 2px 0px rgba(51, 50, 50, 0.77);
+  box-shadow:         2px 2px 2px 0px rgba(51, 50, 50, 0.77);
+}
+
+.search-input{
+  display: inline-block;
+}
+
+.button1, .submit-button, .cancel-button,
+.delete-button, .view-button, .search-button, .back-button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 95px;
+  border-radius: 4px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  background-color: #396281;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+.admin{
+  margin-left: 10%;
+}
+
+.admin, .staff, .list  {
+  text-align: center;
+  padding: 75px 150px;
+  display:inline-block;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  background-color: #eee;
+  /*border: 1px dashed #000;*/
+  font-size: 48px;
+  font-family: Arial;
+  color: #396281;
+}
+
+.button1:hover, .submit-button:hover, .cancel-button:hover, .view-button:hover, .back-button:hover {
+    background-color: #164263;
+}
+
+.button, .back-button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 95px;
+  border-radius: 4px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  background-color: #396281;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+.button-delete{
+  background-color: #C87351;
+}
+
+.button-delete:hover{
+  background-color: #A64F2D ;
+}
+
+.search-button{
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.fake-button{
+    text-shadow: #cbcbcb 2px 2px;
+}
+
+.search-equipment-button {
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.submit-button{
+  margin-top: 30px;
+}
+
+.back-button {
+    margin-left: 20px;
+}
+.log-button{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.button1:active, .submit-button:active, .cancel-button:active, .view-button:active, .back-button:active {
+    background-color: #487da5;
+}
+
+.admin:hover, .staff:hover {
+  background-color: #ddd;
+}
+
+.admin:active, .staff:active {
+  background-color:#fff;
+}
+
+.sign-up{
+  width: 400px;
+}
+
+.error-message {
+  color: red;
+  /*background-color: #DCDCDC;*/
+  /*border: 1px solid grey;*/
+  border-radius: 3px;
+}
+.message{
+  color: green;
+}
+
+.room-display, .date-selection, .add-room {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.container {
+    display: block;
+    width: 200px;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #396281;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.room-type{
+  -webkit-appearance:none;
+  -moz-appearance: none;
+  margin-left: 60px;
+  height: 40px;
+  width: 320px;
+  text-align: center;
+}
+
+/*TODO CORRECT THAT*/
+.room_list, .room-list, .booking-list, .staff-list{
+  width: 400px;
+  margin: 100px auto;
+}
+
+.booking-list{
+  width: 600px;
+  margin: 50px auto;
+}
+
+/*Table design : https://www.w3schools.com/css/css_table.asp*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color:#396281;
+  color: white;
+}
